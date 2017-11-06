@@ -1,0 +1,12 @@
+PODS:
+  - BWWalkthrough (2.1.0)
+
+DEPENDENCIES:
+  - BWWalkthrough
+
+SPEC CHECKSUMS:
+  BWWalkthrough: 188408f55b951725ccfd4faa8dab5c577b57c7a9
+
+PODFILE CHECKSUM: 47c77c73de512c97fc1d444dbe38a0ca88ed6fd2
+
+COCOAPODS: 1.2.0
