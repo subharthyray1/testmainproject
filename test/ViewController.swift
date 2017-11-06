@@ -18,14 +18,14 @@ class ViewController: UIViewController, BWWalkthroughViewControllerDelegate {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        let userDefaults = UserDefaults.standard
+        let userDefaults1 = UserDefaults.standard
         
-        if !userDefaults.bool(forKey: "walkthroughPresented") {
+        if !userDefaults1.bool(forKey: "walkthroughPresented") {
             
             showWalkthrough()
             
-            userDefaults.set(true, forKey: "walkthroughPresented")
-            userDefaults.synchronize()
+            userDefaults1.set(true, forKey: "walkthroughPresented")
+            userDefaults1.synchronize()
         }
     }
     
